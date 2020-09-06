@@ -2,7 +2,7 @@
 
 **SpleefX Wiki**: 
 
-**SpleefX Discord**: https://discord.gg/yrNy9Qt
+**SpleefX Discord**: https://spleefx.net/discord
 
 **SpleefX-PAPI for PlaceholderAPI**: SpleefX-PAPI
 
