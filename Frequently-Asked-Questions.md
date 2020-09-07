@@ -88,5 +88,5 @@ By default, splegg comes with an upgrades system. You can configure delays in **
 ## How can I edit the building of an arena after it was made and saved?
 See [Edit arena structure](Edit-arena-structure).
 
-# Any unanswered questions?
+## Any unanswered questions?
 Join us on [Discord](https://discord.gg/uwf72ZN) for live and fast support!

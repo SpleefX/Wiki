@@ -23,7 +23,8 @@
 [Understand extensions](Understand-extensions)<br>
 [Create your very own extension](Create-your-very-own-extension)<br>
 [Extension commands](Extension-commands)<br>
-[Extension scoreboards](Extension-scoreboards)
+[Extension scoreboards](Extension-scoreboards)<br>
+[Rewards](Rewards)
 
 ### GUI menus
 
@@ -34,7 +35,7 @@
 [Double Jumps](Double-Jumps)<br>
 [Triple Arrows](Triple-Arrows)
 
-### Getting technical
+### Getting technically true
 
 [Understand vectors](Understand-vectors)
 

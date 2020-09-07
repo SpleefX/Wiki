@@ -17,10 +17,10 @@ Since leaderboards are still in beta and may have performance issues (not visibl
  1. Go to **/plugins/SpleefX/config.yml**
  2. Head to the section `Leaderboards`
     ```yml
-      # This is in beta, enable at your own risk!!  
-      #  
-      # Note that this section requires PlaceholderAPI
-      Leaderboards:  
+# This is in beta, enable at your own risk!!  
+#  
+# Note that this section requires PlaceholderAPI
+Leaderboards:  
       
       # Whether should the plugin allow leaderboards.  
       #
@@ -41,7 +41,7 @@ After installing the latest version of SpleefX-PAPI and ensuring that you have P
    - For example, Spleef leaderboards would have this set to `spleef`.
    - If you want global statistics, this would be `global`.
 - **request**: The *thing* you want from the top #n player. Requests are constant operations:
-- 
+
 | Request | Description |
 |--|--|
 | name | The name of the player holding this position |
@@ -76,6 +76,7 @@ Leaderboards:
 ``` 
 
 **Acceptable placeholders in formats**:
+
 | Placeholder | Description |
 |--|--|
 | {pos} | The player position in the leaderboard |

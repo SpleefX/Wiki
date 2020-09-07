@@ -1,11 +1,5 @@
 This page will contain all details on how to reward winners in arenas.
 
-> **Page Index**:
-> 1. [Notes](Rewards#notes)
-> 2. [Add rewards](Rewards#add-rewards)
-> 3. [Examples](Rewards#examples)
----
-
 # Notes
  - To allow for topmost flexibility, rewards are done **entirely in commands**. You can use this to reward your players in any way you want, such as money, crate keys, in-game items, etc.
  - Rewards are defined **per-game mode only**. For now, per-arena rewards are not possible.
