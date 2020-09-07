@@ -4,7 +4,7 @@
 > 3. [Plugin files](Installation-and-basic-setup#plugin-files)
 ---
 
-# Prerequisites:
+# Prerequisites
 
 - Java 8 or higher. **The plugin uses a lot of features which were introduced in Java 8, including lambdas, Streams API and functional interfaces!**
  - WorldEdit (or any of its forks, such as FastAsyncWorldEdit or AsyncWorldEdit.)
