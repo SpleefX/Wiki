@@ -35,7 +35,7 @@
 [Double Jumps](Double-Jumps)<br>
 [Triple Arrows](Triple-Arrows)
 
-### Getting technically true
+### Getting technical
 
 [Understand vectors](Understand-vectors)
 
