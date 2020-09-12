@@ -16,7 +16,8 @@
 
 [What is an arena?](What-is-an-arena)<br>
 [Create an arena](Create-an-arena)<br>
-[Setup your arena](Setup-your-arena)
+[Setup your arena](Setup-your-arena)<br>
+[Spawn-Point Scanner](Spawn-Point-Scanner)
 
 ### Extensions
 
