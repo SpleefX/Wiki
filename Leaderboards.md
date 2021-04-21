@@ -9,7 +9,6 @@ This page will include information on how to create access the leaderboards feat
 # Prerequisites
 
  - [PlaceholderAPI](https://www.spigotmc.org/resources/6245/)
- - *For SpleefX below 3.8.5-BETA*: [SpleefX-PAPI](https://api.extendedclip.com/expansions/spleefx-papi/): Must be 1.3-SNAPSHOT or newer!
 
 # Enable the leaderboards
 Since leaderboards are still in beta and may have performance issues (not visible with servers less than 2000 player-base), they are a use-at-your-own-risk, and must be enabled manually.
@@ -30,7 +29,7 @@ Leaderboards:
 3. Set `Enabled` to **true**.
 
 # Access leaderboards
-After installing the latest version of SpleefX-PAPI and ensuring that you have PlaceholderAPI and leaderboards enabled, you can access the leaderboards through PlaceholderAPI, using the following format:
+After ensuring that you have PlaceholderAPI and leaderboards enabled, you can access the leaderboards through PlaceholderAPI, using the following format:
 
 ```%spleefx_<statistic>_<leaderboard position>:<mode, or global>:<request>```
 
