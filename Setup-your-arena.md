@@ -1,19 +1,19 @@
 
 This page will cover how to setup an already-made arena. 
-* [Don't know what an arena is?](What-is-an-arena%3F)
-* [Don't know how to create an arena?](Create-an-arena)
+* [Don't know what an arena is?](https://github.com/SpleefX/SpleefX/wiki/What-is-an-arena%3F)
+* [Don't know how to create an arena?](https://github.com/SpleefX/SpleefX/wiki/Create-an-arena)
 
 >**Page Index**:
-> 1. [Set the arena variables](Setup-your-arena#set-the-arena-variables)
-> 2. [Add teams](Setup-your-arena#add-teams)
-> 3. [Set spawn-points](Setup-your-arena#set-spawn-points)
-> 4. [Set the arena lobby](Setup-your-arena#set-the-arena-lobby)
-> 5. [Extras](Setup-your-arena#extras)
->    * [Enable/Disable your arena](Setup-your-arena#enabledisable-your-arena)
->    * [Rename your arena](Setup-your-arena#rename-your-arena)
->    * [Update arena variables through commands](Setup-your-arena#update-arena-variables-through-commands)
->    * [Regenerate an arena manually](Setup-your-arena#regenerate-an-arena-manually)
->    * [List all arenas for a specific mode](Setup-your-arena#list-all-arenas-for-a-specific-mode)
+> 1. [Set the arena variables](#set-the-arena-variables)
+> 2. [Add teams](#add-teams)
+> 3. [Set spawn-points](#set-spawn-points)
+> 4. [Set the arena lobby](#set-the-arena-lobby)
+> 5. [Extras](#extras)
+>    * [Enable/Disable your arena](#enabledisable-your-arena)
+>    * [Rename your arena](#rename-your-arena)
+>    * [Update arena variables through commands](#update-arena-variables-through-commands)
+>    * [Regenerate an arena manually](#regenerate-an-arena-manually)
+>    * [List all arenas for a specific mode](#list-all-arenas-for-a-specific-mode)
 ---
 
 # Set the arena variables
@@ -68,12 +68,12 @@ Represents the total maximum amount of players allowed in the game. *Must be ≥
 You can add teams in 2 ways:
 
  1. **Settings GUI**: To open this GUI, run the following command:
- > /<mode> arena settings <arena key> 
+ > /\<mode> arena settings \<arena key> 
 
 ![Add teams](https://i.imgur.com/qr9bmUM.png)
  
  2. **Commands**: To add teams, run the following command:
- > /<mode> arena settings <arena key> teams <teams to add>
+ > /\<mode> arena settings \<arena key> teams \<teams to add>
  > *Example*: /spleef arena settings myarena teams red green blue
 
 # Set spawn-points
@@ -81,13 +81,13 @@ Spawn-points are fixed and defined locations in which the players are teleported
 
 ### For teams
 Go to the desired location and execute the following command:
-> /<mode> arena spawnpoint <arena key> <team>
+> /\<mode> arena spawnpoint \<arena key> \<team>
 > 
 > *Example: /spleef arena spawnpoint myarena green*
 
 ### For FFA arenas
 Go to the desired location and execute the following command:
-> /<mode> arena spawnpoint <arena key> <player index>
+> /\<mode> arena spawnpoint \<arena key> \<player index>
 > 
 > *Example: /spleef arena spawnpoint myarena 1* to set the spawnpoint for *player 1*.
 
@@ -98,17 +98,29 @@ To set the lobby:
 
  1. Go to the desired lobby location
  2. Type the following command:
- > /<mode> arena lobby <arena key> 
+ > /\<mode> arena lobby \<arena key> 
 
 To remove the arena lobby, run the following command:
- > /<mode> arena removelobby <arena key> 
+ > /\<mode> arena removelobby \<arena key> 
 
+#  Set the power-up blocks
+Power-up blocks are locations in which there will be a chance for power ups to spawn.
+
+To set power up locations, do the following:
+1. Run **/\<mode> powerupblocks \<arena>**
+![Command](https://i.imgur.com/50cUQxk.png)
+2. Mark the area where power ups should spawn with **sponges** (or whatever you have set in `PowerupsScanBlock` in config).
+![Sponges](https://i.imgur.com/CEZYKVu.png)
+3. Select the boundaries with the **Selection Wand** (iron axe) in which the area should be scanned
+![Axe](https://i.imgur.com/6RxMIuB.png)
+4. Run **/\<mode> powerupblocks \<arena>** again
+![enter image description here](https://i.imgur.com/x6Ibqjq.png)
 # Extras
 ### Enable/Disable your arena
 Disabling an arena can be handy if you want to do maintenance on the arena or such.
 
 To enable/disable an arena, run the following command:
-  > /<mode> arena settings <arena key> toggle
+  > /\<mode> arena settings \<arena key> toggle
 
 - If the arena is enabled, this will disable it.
 - If the arena is disabled, this will enable it.
@@ -117,7 +129,7 @@ To enable/disable an arena, run the following command:
 To rename an already-existing arena using the GUI:
 
  1. Open the settings GUI for the arena using the following command:
-  > /<mode> arena settings <arena key>
+  > /\<mode> arena settings \<arena key>
  2. Click on the name tag
 
 ![Name tag](https://i.imgur.com/R2lnmlL.png)
@@ -126,14 +138,14 @@ To rename an already-existing arena using the GUI:
    * To cancel editing, type in chat **`cancel-edit`**.
 
 To rename an already-existing arena using commands, run the following command: 
-  > /<mode> arena settings <arena key> displayName <new display name>
+  > /\<mode> arena settings \<arena key> displayName \<new display name>
   > *Example: /spleef arena settings myarena displayName My Awesome Arena*
 
 ### Update arena variables through commands
 It's possible to change numeric variables through commands. This has a few advantages, such as allowing to be ran through console and to set to values more quickly.
 
 To change a variable, run the following command:
-> /<mode> arena settings <arena key> <setting> <new value>
+> /\<mode> arena settings \<arena key> \<setting> \<new value>
 >
 > *Example: /spleef arena settings myarena deathLevel 90*
 
@@ -151,7 +163,7 @@ Settings keys (case-insensitive):
 
 ### Regenerate an arena manually
 To regenerate an arena, run the following command:
-> /<mode> arena regenerate <arena key>
+> /\<mode> arena regenerate \<arena key>
 
 *regenerate can be aliased with `regen`*.
 
@@ -159,7 +171,7 @@ Arena regeneration should take the same exact amount of time it would take to pa
 
 ### List all arenas for a specific mode
 To list all arenas, run the following command:
-> /<mode> listarenas
+> /\<mode> listarenas
 
 *listarenas can be aliased with `list`*.
 
