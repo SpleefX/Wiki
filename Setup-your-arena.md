@@ -104,18 +104,6 @@ To set the lobby:
 To remove the arena lobby, run the following command:
  > /\<mode> arena removelobby \<arena key> 
 
-#  Set the power-up blocks
-Power-up blocks are locations in which there will be a chance for power ups to spawn.
-
-To set power up locations, do the following:
-1. Run **/\<mode> powerupblocks \<arena>**
-![Command](https://i.imgur.com/50cUQxk.png)
-2. Mark the area where power ups should spawn with **sponges** (or whatever you have set in `PowerupsScanBlock` in config).
-![Sponges](https://i.imgur.com/CEZYKVu.png)
-3. Select the boundaries with the **Selection Wand** (iron axe) in which the area should be scanned
-![Axe](https://i.imgur.com/6RxMIuB.png)
-4. Run **/\<mode> powerupblocks \<arena>** again
-![enter image description here](https://i.imgur.com/x6Ibqjq.png)
 # Extras
 ### Enable/Disable your arena
 Disabling an arena can be handy if you want to do maintenance on the arena or such.
